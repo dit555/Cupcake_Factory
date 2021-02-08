@@ -1,10 +1,11 @@
-#Automated Cupcake Factory
+# Automated Cupcake Factory
 
 In this project, I coded a controller for a cupcake assembly line. It works by first placing down a wrapper, filling the wrapper with batter, baking the cupcake, frosting it, decorating it with sprinkles, and then packaging eight cupcakes in a tray.  
 
 This is achieved by first defining a conveyor belt with 8 different sized sections. Six of those sections are for the various cupcake stations and two sections are empty. The conveyor belt layout is a s follows:
 
 |Wrapper|Batter|Empty|Baking|Empty|Frosting|Decorating|Packaging|
+|-------|------|-----|------|-----|--------|----------|---------|
 
 The position of the cupcakes by section is shown on output B where B0 is the wrapper section and B7 is the packaging section.  
 
