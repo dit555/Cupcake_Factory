@@ -4,7 +4,9 @@ In this project, I coded a controller for a cupcake assembly line. It works by f
 
 This is achieved by first defining a conveyor belt with 8 different sized sections. Six of those sections are for the various cupcake stations and two sections are empty. The conveyor belt layout is a s follows:
 
-|Wrapper | Batter | Empty | Baking | Empty | Frosting | Decorating | Packaging|
+|Wrapper|Batter|Empty|Baking|Empty|Frosting|Decorating|Packaging|
+
+The position of the cupcakes by section is shown on output B where B0 is the wrapper section and B7 is the packaging section.  
 
 The wrapper, batter, frosting, decorating, and packaging station are all one foot long. The empty sections are 3 feet long to reduce the chances of heat from the baking section affecting the process of pouring batter and/or frosting the cupcakes. The baking section is 10 feet long. The conveyor belt moves one foot every second. This is too fast for real life purposes, but I choose this to make testing expedited. 
 
